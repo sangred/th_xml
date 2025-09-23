@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library [
+    <!ELEMENT library (book+)>
+    <!ELEMENT book (title, author, year, genre)>
+    <!ATTLIST book id ID #REQUIRED>
+
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT author (#PCDATA)>
+    <!ELEMENT year (#PCDATA)>
+    <!ELEMENT genre (#PCDATA)>
+]>
+<library>
+    <book id="B001">
+        <title>Lập trình Python</title>
+        <author>Nguyễn Văn C</author>
+        <year>2020</year>
+        <genre>Công nghệ</genre>
+    </book>
+
+    <book id="B002">
+        <title>Kinh tế học cơ bản</title>
+        <author>Trần Thị D</author>
+        <year>2018</year>
+        <genre>Kinh tế</genre>
+    </book>
+
+    <book id="B003">
+        <title>Giải tích 1</title>
+        <author>Lê Văn E</author>
+        <year>2019</year>
+        <genre>Toán học</genre>
+    </book>
+</library>
