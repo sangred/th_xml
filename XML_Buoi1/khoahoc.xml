@@ -1,40 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<elearning xmlns:course="http://example.com/course"
-    xmlns:instructor="http://example.com/instructor"
-    xmlns:student="http://example.com/student">
+<!DOCTYPE elearning [
+    <!ELEMENT elearning (course+)>
+
+    <!-- course -->
+    <!ELEMENT course (title, instructor, students)>
+    <!ATTLIST course
+        id ID #REQUIRED
+        category CDATA #REQUIRED
+    >
+    <!ELEMENT title (#PCDATA)>
+
+    <!-- instructor -->
+    <!ELEMENT instructor (name, email)>
+    <!ATTLIST instructor
+        id ID #REQUIRED
+    >
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+
+    <!-- students -->
+    <!ELEMENT students (student+)>
+
+    <!-- student -->
+    <!ELEMENT student (name)>
+    <!ATTLIST student
+        id ID #REQUIRED
+        progress CDATA #REQUIRED
+    >
+]>
+
+<elearning>
 
     <!-- Khóa học 1 -->
-    <course:course id="C001" category="Lập trình">
-        <course:title>Python cơ bản</course:title>
-        <instructor:instructor id="I001">
-            <instructor:name>vu dinh sang</instructor:name>
-            <instructor:email>nguyenvana@example.com</instructor:email>
-        </instructor:instructor>
-        <course:students>
-            <student:student id="S001" progress="80">
-                <student:name>le văn mộng</student:name>
-            </student:student>
-            <student:student id="S002" progress="50">
-                <student:name>Hoàng Minh</student:name>
-            </student:student>
-        </course:students>
-    </course:course>
+    <course id="C001" category="Lập trình">
+        <title>Python cơ bản</title>
+        <instructor id="I001">
+            <name>vu dinh sang</name>
+            <email>nguyenvana@example.com</email>
+        </instructor>
+        <students>
+            <student id="S001" progress="80">
+                <name>le văn mộng</name>
+            </student>
+            <student id="S002" progress="50">
+                <name>Hoàng Minh</name>
+            </student>
+        </students>
+    </course>
 
     <!-- Khóa học 2 -->
-    <course:course id="C002" category="Thiết kế">
-        <course:title>Thiết kế đồ họa</course:title>
-        <instructor:instructor id="I002">
-            <instructor:name>Lê văn dinh</instructor:name>
-            <instructor:email>lethid@example.com</instructor:email>
-        </instructor:instructor>
-        <course:students>
-            <student:student id="S003" progress="90">
-                <student:name>Ngô Văn Em</student:name>
-            </student:student>
-            <student:student id="S004" progress="40">
-                <student:name>Phạm Thị mai</student:name>
-            </student:student>
-        </course:students>
-    </course:course>
+    <course id="C002" category="Thiết kế">
+        <title>Thiết kế đồ họa</title>
+        <instructor id="I002">
+            <name>Lê văn dinh</name>
+            <email>lethid@example.com</email>
+        </instructor>
+        <students>
+            <student id="S003" progress="90">
+                <name>Ngô Văn Em</name>
+            </student>
+            <student id="S004" progress="40">
+                <name>Phạm Thị mai</name>
+            </student>
+        </students>
+    </course>
 
 </elearning>
