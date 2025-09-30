@@ -1,15 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE orders [
-    <!ELEMENT orders (order+)>
-    <!ELEMENT order (product+)>
-    <!ATTLIST order id ID #REQUIRED>
-
-    <!ELEMENT product (name, quantity)>
-    <!ATTLIST product id ID #REQUIRED>
-
-    <!ELEMENT name (#PCDATA)>
-    <!ELEMENT quantity (#PCDATA)>
-]>
 <orders>
     <order id="O001">
         <product id="P001">
