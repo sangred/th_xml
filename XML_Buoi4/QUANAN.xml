@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUANAN xmlns="http://www.example.com/quanan">
+
+    <!-- Bảng BAN -->
+    <BAN>
+        <TENBAN>B01</TENBAN>
+        <SOBAN>1</SOBAN>
+    </BAN>
+    <BAN>
+        <TENBAN>B02</TENBAN>
+        <SOBAN>2</SOBAN>
+    </BAN>
+    <BAN>
+        <TENBAN>B03</TENBAN>
+        <SOBAN>3</SOBAN>
+    </BAN>
+    <BAN>
+        <TENBAN>B04</TENBAN>
+        <SOBAN>4</SOBAN>
+    </BAN>
+    <BAN>
+        <TENBAN>B05</TENBAN>
+        <SOBAN>5</SOBAN>
+    </BAN>
+
+    <!-- Bảng NHANVIEN -->
+    <NHANVIEN>
+        <MANV>NV01</MANV>
+        <TENNV>Nguyen Van A</TENNV>
+        <SDT>0123456789</SDT>
+        <DIACHI>Ha Noi</DIACHI>
+        <GIOITINH>Nam</GIOITINH>
+        <USERNAME>nv_a</USERNAME>
+        <PASSWORD>matkhau123</PASSWORD>
+    </NHANVIEN>
+    <NHANVIEN>
+        <MANV>NV02</MANV>
+        <TENNV>Tran Thi B</TENNV>
+        <SDT>0987654321</SDT>
+        <DIACHI>Hue</DIACHI>
+        <GIOITINH>Nu</GIOITINH>
+        <USERNAME>tranb</USERNAME>
+        <PASSWORD>1234567890</PASSWORD>
+    </NHANVIEN>
+    <NHANVIEN>
+        <MANV>NV03</MANV>
+        <TENNV>Le Van C</TENNV>
+        <SDT>0911222333</SDT>
+        <DIACHI>Da Nang</DIACHI>
+        <GIOITINH>Nam</GIOITINH>
+        <USERNAME>levanc</USERNAME>
+        <PASSWORD>mk11111111</PASSWORD>
+    </NHANVIEN>
+    <NHANVIEN>
+        <MANV>NV04</MANV>
+        <TENNV>Pham D</TENNV>
+        <SDT>0909090909</SDT>
+        <DIACHI>HCM</DIACHI>
+        <GIOITINH>Nam</GIOITINH>
+        <USERNAME>phamd</USERNAME>
+        <PASSWORD>matkhau999</PASSWORD>
+    </NHANVIEN>
+    <NHANVIEN>
+        <MANV>NV05</MANV>
+        <TENNV>Do Thi E</TENNV>
+        <SDT>0933334444</SDT>
+        <DIACHI>Vinh</DIACHI>
+        <GIOITINH>Nu</GIOITINH>
+        <USERNAME>dothe</USERNAME>
+        <PASSWORD>1234567899</PASSWORD>
+    </NHANVIEN>
+
+    <!-- Bảng MON -->
+    <MON>
+        <MAMON>M01</MAMON>
+        <TENMON>Com rang</TENMON>
+        <GIA>30000</GIA>
+        <HINHANH>comrang.jpg</HINHANH>
+    </MON>
+    <MON>
+        <MAMON>M02</MAMON>
+        <TENMON>Mi xao</TENMON>
+        <GIA>35000</GIA>
+        <HINHANH>mixao.jpg</HINHANH>
+    </MON>
+    <MON>
+        <MAMON>M03</MAMON>
+        <TENMON>Bun bo</TENMON>
+        <GIA>40000</GIA>
+        <HINHANH>bunbo.jpg</HINHANH>
+    </MON>
+    <MON>
+        <MAMON>M04</MAMON>
+        <TENMON>Hu tieu</TENMON>
+        <GIA>35000</GIA>
+        <HINHANH>hutieu.jpg</HINHANH>
+    </MON>
+    <MON>
+        <MAMON>M05</MAMON>
+        <TENMON>Ca kho</TENMON>
+        <GIA>50000</GIA>
+        <HINHANH>cakho.jpg</HINHANH>
+    </MON>
+
+    <!-- Bảng HOADON -->
+    <HOADON>
+        <SOHD>1001</SOHD>
+        <NGAYLAP>2025-10-01</NGAYLAP>
+        <TONGTIEN>65000</TONGTIEN>
+        <TENBAN>B01</TENBAN>
+        <MANV>NV01</MANV>
+    </HOADON>
+    <HOADON>
+        <SOHD>1002</SOHD>
+        <NGAYLAP>2025-10-02</NGAYLAP>
+        <TONGTIEN>80000</TONGTIEN>
+        <TENBAN>B02</TENBAN>
+        <MANV>NV02</MANV>
+    </HOADON>
+
+    <!-- Bảng CTHD -->
+    <CTHD>
+        <SOHD>1001</SOHD>
+        <MAMON>M01</MAMON>
+        <SOLUONG>2</SOLUONG>
+    </CTHD>
+    <CTHD>
+        <SOHD>1001</SOHD>
+        <MAMON>M02</MAMON>
+        <SOLUONG>1</SOLUONG>
+    </CTHD>
+    <CTHD>
+        <SOHD>1002</SOHD>
+        <MAMON>M05</MAMON>
+        <SOLUONG>1</SOLUONG>
+    </CTHD>
+
+</QUANAN>

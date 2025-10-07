@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DSSV>
+    <KHOA>
+        <MA>K01</MA>
+        <TEN>congnghe</TEN>
+    </KHOA>
+    <KHOA>
+        <MA>K02</MA>
+        <TEN>ketoan</TEN>
+    </KHOA>
+
+    <LOP>
+        <MA>L01</MA>
+        <TEN>LapTrinh</TEN>
+        <MAKHOA>K01</MAKHOA>
+    </LOP>
+    <LOP>
+        <MA>L02</MA>
+        <TEN>KeToan</TEN>
+        <MAKHOA>K02</MAKHOA>
+    </LOP>
+
+    <SINHVIEN>
+        <MSSV>SV01</MSSV>
+        <HOTEN>Le Van Mong</HOTEN>
+        <EMAIL>aaaa@gmail.com</EMAIL>
+        <DIACHI>Ha Noi</DIACHI>
+        <SDT>0123456789</SDT>
+        <MALOP>L01</MALOP>
+    </SINHVIEN>
+
+    <SINHVIEN>
+        <MSSV>SV02</MSSV>
+        <HOTEN>Vu Dinh sang</HOTEN>
+        <EMAIL>bbbbb@gmail.com</EMAIL>
+        <DIACHI>Can Tho</DIACHI>
+        <SDT>0987654321</SDT>
+        <MALOP>L02</MALOP>
+    </SINHVIEN>
+</DSSV>
