@@ -1,0 +1,22 @@
+{
+  "sanpham": [
+    {
+      "ten": "Laptop Dell Inspiron 15",
+      "gia": 18500000,
+      "soluongton": 12,
+      "danhmuc": "Laptop"
+    },
+    {
+      "ten": "Chuột Logitech M331",
+      "gia": 450000,
+      "soluongton": 35,
+      "danhmuc": "Phụ kiện"
+    },
+    {
+      "ten": "Tai nghe Sony WH-CH520",
+      "gia": 1490000,
+      "soluongton": 20,
+      "danhmuc": "Âm thanh"
+    }
+  ]
+}

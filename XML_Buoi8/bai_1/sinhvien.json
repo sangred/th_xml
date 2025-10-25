@@ -1,0 +1,10 @@
+{
+  "hoten": "Vu Dinh Sang",
+  "tuoi": 21,
+  "gioitinh": "Nam",
+  "diemtrungbinh": 8.5,
+  "diachi": {
+    "thanhpho": "Can Tho",
+    "quocgia": "Viet Nam"
+  }
+}

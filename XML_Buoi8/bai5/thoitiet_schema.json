@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DuLieuThoiTiet",
+  "type": "object",
+  "properties": {
+    "ten_thanhpho": { "type": "string" },
+    "quocgia": { "type": "string" },
+    "nhietdo_hientai": { "type": "number" },
+    "doam": { 
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "tocdogio": { 
+      "type": "number",
+      "minimum": 0
+    },
+    "mota_thoitiet": { 
+      "type": "string",
+      "enum": ["Nang", "Mua", "Nhieu may", "Am u", "Gio manh", "Nang nong"]
+    }
+  },
+  "required": ["ten_thanhpho", "quocgia", "nhietdo_hientai", "doam", "tocdogio", "mota_thoitiet"]
+}

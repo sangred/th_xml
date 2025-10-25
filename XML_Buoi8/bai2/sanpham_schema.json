@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DanhSachSanPham",
+  "type": "object",
+  "properties": {
+    "sanpham": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ten": { "type": "string" },
+          "gia": { "type": "number", "minimum": 0 },
+          "soluongton": { "type": "integer", "minimum": 0 },
+          "danhmuc": { "type": "string" }
+        },
+        "required": ["ten", "gia", "soluongton", "danhmuc"]
+      }
+    }
+  },
+  "required": ["sanpham"]
+}

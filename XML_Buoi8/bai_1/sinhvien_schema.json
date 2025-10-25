@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SinhVien",
+  "type": "object",
+  "properties": {
+    "hoten": {
+      "type": "string"
+    },
+    "tuoi": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "gioitinh": {
+      "type": "string",
+      "enum": ["Nam", "Nu", "Khac"]
+    },
+    "diemtrungbinh": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 10
+    },
+    "diachi": {
+      "type": "object",
+      "properties": {
+        "thanhpho": { "type": "string" },
+        "quocgia": { "type": "string" }
+      },
+      "required": ["thanhpho", "quocgia"]
+    }
+  },
+  "required": ["hoten", "tuoi", "gioitinh", "diemtrungbinh", "diachi"]
+}

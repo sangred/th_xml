@@ -1,0 +1,25 @@
+{
+  "nhanvien": [
+    {
+      "id": 1,
+      "hoten": "Vu Dinh Sang",
+      "chucvu": "Lap trinh vien",
+      "mucluong": 15000000,
+      "trangthai": "Dang lam"
+    },
+    {
+      "id": 2,
+      "hoten": "Le Cong Thuc",
+      "chucvu": "Ke toan",
+      "mucluong": 12000000,
+      "trangthai": "Dang lam"
+    },
+    {
+      "id": 3,
+      "hoten": "Le Van Mong",
+      "chucvu": "Nhan vien ban hang",
+      "mucluong": 10000000,
+      "trangthai": "Nghi viec"
+    }
+  ]
+}
